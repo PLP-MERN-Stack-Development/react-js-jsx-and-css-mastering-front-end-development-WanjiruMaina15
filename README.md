@@ -1,70 +1,150 @@
-# React.js and Tailwind CSS Assignment
+TaskManager - React Task Management Application
+A modern, responsive task management application built with React, Vite, and Tailwind CSS. This application helps users organize their tasks efficiently with a clean, intuitive interface and powerful features.
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+🚀 Live Demo
+View Live Application
+https://plp-mern-stack-development.github.io/react-js-jsx-and-css-mastering-front-end-development-WanjiruMaina15/
 
-## Assignment Overview
+✨ Features
+📋 Task Management
+Add New Tasks - Quickly create new tasks with a simple form
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+Mark as Completed - Toggle task completion status
 
-## Getting Started
+Delete Tasks - Remove tasks you no longer need
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+Task Filtering - View All, Active, or Completed tasks
 
-## Files Included
+Local Storage - Tasks persist between browser sessions
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+🎨 User Experience
+Dark/Light Mode - Toggle between themes for comfortable viewing
 
-## Requirements
+Responsive Design - Works seamlessly on desktop, tablet, and mobile
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+Smooth Animations - Enhanced interactions with custom transitions
 
-## Project Structure
+Clean Interface - Modern, minimalist design with Tailwind CSS
 
-```
+🔗 API Integration
+Data Fetching - Integration with JSONPlaceholder API
+
+Search Functionality - Filter API results in real-time
+
+Loading States - Visual feedback during data fetching
+
+Error Handling - Graceful error states for failed requests
+
+🛠️ Technology Stack
+Frontend Framework: React 18
+
+Build Tool: Vite
+
+Styling: Tailwind CSS
+
+Routing: React Router DOM
+
+State Management: React Hooks (useState, useEffect, useContext)
+
+Icons: React Icons
+
+Deployment: GitHub Pages
+
+📦 Project Structure
+text
 src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+├── components/          # Reusable UI components
+│   ├── Button.jsx      # Custom button with variants
+│   ├── Card.jsx        # Content container component
+│   ├── Navbar.jsx      # Navigation header
+│   └── Footer.jsx      # Site footer
+├── pages/              # Page components
+│   ├── Home.jsx        # Landing page
+│   ├── Tasks.jsx       # Task management interface
+│   └── ApiDemo.jsx     # API integration demo
+├── hooks/              # Custom React hooks
+│   └── useLocalStorage.js  # Local storage persistence
+├── context/            # React Context providers
+│   └── ThemeContext.js # Theme management
+├── utils/              # Utility functions
+└── App.jsx             # Main application component
+🎯 Key Components
+TaskManager Component
+Real-time task operations (add, complete, delete)
 
-## Submission
+Persistent storage using custom hooks
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+Advanced filtering capabilities
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+Theme System
+Context-based theme management
 
-## Resources
+Tailwind CSS dark mode integration
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+System preference detection
+
+Responsive Design
+Mobile-first approach
+
+Flexible grid layouts
+
+Optimized touch interactions
+
+🚀 Getting Started
+Prerequisites
+Node.js (v14 or higher)
+
+npm or yarn
+
+Installation
+Clone the repository:
+
+bash
+git clone <repository-url>
+cd TaskManager
+Install dependencies:
+
+bash
+npm install
+Start the development server:
+
+bash
+npm run dev
+Open your browser and navigate to http://localhost:5173
+
+Available Scripts
+npm run dev - Start development server
+
+npm run build - Build for production
+
+npm run preview - Preview production build
+
+npm run deploy - Deploy to GitHub Pages
+
+🎨 Customization
+Adding New Task Types
+Extend the task structure in TaskManager.jsx to include additional fields like due dates, priorities, or categories.
+
+Theme Colors
+Modify the color scheme by updating the Tailwind configuration in tailwind.config.js.
+
+API Endpoints
+Replace the JSONPlaceholder API with your own backend by updating the endpoints in the API integration components.
+
+🤝 Contributing
+Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
+
+📝 License
+This project is open source and available under the MIT License.
+
+🙏 Acknowledgments
+React - The library for web and native user interfaces
+
+Vite - Next generation frontend tooling
+
+Tailwind CSS - A utility-first CSS framework
+
+JSONPlaceholder - Fake Online REST API for Testing and Prototyping
+
+Built with ❤️ using React and Tailwind CSS
+
