@@ -1,0 +1,65 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+ ------------------
+# 2. ENVIRONMENT SECRETS (CRITICAL)
+# ------------------
+# DO NOT COMMIT SECRETS OR ENV FILES
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.production.local
+
+# ------------------
+# 3. BUILD ARTIFACTS
+# ------------------
+# Frontend build output (React/Vite default)
+dist/
+dist-ssr/
+build/
+out/
+/coverage
+/tmp
+
+# ------------------
+# 4. EDITOR & OS FILES
+# ------------------
+# VS Code specific files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# IDEs (IntelliJ, WebStorm, etc.)
+.idea/
+
+# OS and temporary files
+.DS_Store
+*.local
+*.swp
+*.bak
